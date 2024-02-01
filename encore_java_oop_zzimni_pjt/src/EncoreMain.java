@@ -16,7 +16,7 @@ public class EncoreMain {
 		boolean booleanValue = false ;
 		
 		System.out.println("정수값: " + intValue); // 변수의 타입이 다를 경우의 연산은 큰 타입으로 흡수돼버림 -> int도 문자열이 됨
-		System.out.println("문저값: " + charValue);
+		System.out.println("문자값: " + charValue);
 		System.out.println("실수값: " + doubleValue);
 		System.out.println("문자열값: " + stringValue);
 		System.out.println("논리값: " + booleanValue);

@@ -11,9 +11,9 @@ public class Car {
 	// 생성자는 like a method로 반환타입이 정의되지 않고 메서드의 이름은 클래스의 이름과 동일
 	
 	public Car() { // 기본 생성자 (생성자: 객체 생성시 호출되게 돼있음)
-		engine = new Engine() ;
+		engine = new Engine() ; // 생성자 안에서 객체 생성 -> Car 객체 생성하면 Engine 객체도 자동으로 생성됨
 	}
-	public Car(String type) {
+	public Car(String type) { // 오버로딩
 		engine=new Engine(type);
 	}
 	public void engineInfo() {
